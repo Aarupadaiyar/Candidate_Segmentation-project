@@ -34,18 +34,22 @@ This is a **pure ML + visualization project**, not a CRUD app.
 ---
 
 ## 🗂️ Project Structure
+
+```
 Candidate_Segmentation-project/
 │
 ├── app.py
-│ └── Streamlit web application
+│   └── Streamlit web application
 │
 ├── candidate_segmentation.py
-│ └── Data preparation, scaling, KMeans model, PCA visualization
+│   └── Data preparation, scaling, KMeans model, PCA visualization
 │
-├── pycache/
-│ └── Compiled Python files (auto-generated)
+├── __pycache__/
+│   └── Compiled Python files (auto-generated)
 │
 └── README.md
+```
+
 ---
 
 ## ⚙️ What This Project Does
@@ -87,22 +91,25 @@ Candidate_Segmentation-project/
 To run the app:
 ```bash
 streamlit run app.py
+```
 
-📦 Tech Stack
+---
 
-Python
+## 📦 Tech Stack
 
-Pandas
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Streamlit  
 
-NumPy
+---
 
-Scikit-learn
+## 🚀 How to Run Locally
 
-Matplotlib
-
-Seaborn
-
-Streamlit
+```bash
 # Clone repository
 git clone https://github.com/your-username/Candidate_Segmentation-project.git
 
@@ -114,3 +121,41 @@ pip install -r requirements.txt
 
 # Run Streamlit app
 streamlit run app.py
+```
+
+---
+
+## 📈 Use Cases
+
+- Resume screening  
+- Candidate shortlisting  
+- HR analytics  
+- Talent segmentation  
+- Academic ML demonstration  
+
+---
+
+## 🧪 Key Learnings Demonstrated
+
+- End-to-end ML pipeline
+- Practical use of unsupervised learning
+- Feature scaling importance
+- PCA for explainability
+- Deploying ML logic into a web app
+
+---
+
+## 🔮 Future Improvements
+
+- Real dataset integration (CSV upload)
+- Dynamic cluster count selection
+- Cluster interpretation labels (e.g., “High Potential”, “Junior”)
+- Model persistence using `joblib`
+- Deployment using Streamlit Cloud
+
+---
+
+## 👤 Author
+
+**Aarav (Aarupadaiyar)**  
+AI & Data Science Student | ML & Automation Enthusiast
